@@ -1,5 +1,5 @@
 
-// import { experData } from './varaiable'
+
 
 // creating function for bar for languge
 const fillBar = () => {
@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
    
     //after getting all classes with children we will loop by forEach method
     skillsDefineContainer.forEach((el, idx) => {
-        const widths = ["100%", "90%", "75%", "80%", "45%"]
+        const widths = ["95%", "90%", "75%", "80%", "45%"]
         //queryselector not exist on nodelist so i casted with html element and store into element
     const element = el as HTMLElement
     //got skill-bar div
